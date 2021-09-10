@@ -1,3 +1,5 @@
+package com;
+
 public class DoubleNode {
 
     private int valor;
@@ -25,10 +27,12 @@ public class DoubleNode {
     }
 
     public DoubleNode getNext(){
+
         return this.next;
     }
 
     public DoubleNode getPrevious(){
+
         return this.previous;
     }
 }
