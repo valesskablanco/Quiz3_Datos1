@@ -3,8 +3,8 @@ package com;
 public class DoubleNode {
 
     private int valor;
-    private DoubleNode next;
-    private DoubleNode previous;
+    public DoubleNode next;
+    public DoubleNode previous;
 
     public DoubleNode (int valor){
         this.valor = valor;
