@@ -33,6 +33,11 @@ public class DoubleLinkedList{
         this.size++;
     }
 
+    public void insertFirst(int num){
+        this.start = new DoubleNode(num);
+        this.end = this.start;
+    }
+
     public DoubleNode deleteFirst(){
         if (this.start != null){
             DoubleNode del = this.start;
